@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 100vw;
+  min-height: 80vh;
+}
+
+.pyramid_container {
+  background-color: green;
+  margin: auto;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pyramid_row {
+  display: flex;
+  justify-content: center;
+}
+
+.pyramid_box {
+  width: 150px;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  background-color: gray;
+  text-align: center;
+  margin: 10px;
+}
